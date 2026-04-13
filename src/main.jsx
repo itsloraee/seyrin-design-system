@@ -1,9 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import SeyrinCharte from "./seyrin_charte.jsx";
+import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <SeyrinCharte />
+    <App />
   </StrictMode>
 );
